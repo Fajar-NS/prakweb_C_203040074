@@ -17,6 +17,8 @@ $buku = query("SELECT * FROM buku");
 </head>
 
 <body style="margin: auto 100px;">
+
+<h2>Buku OLSHOP</h2>
 <p></p>
     <div class="add">
         <a href="php/form.php">Ke Halaman tambah</a>

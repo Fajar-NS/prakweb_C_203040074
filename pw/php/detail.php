@@ -25,7 +25,7 @@ $Buku = query("SELECT * FROM Buku WHERE id = $id")[0];
         </div>
         <div class="keterangan">
             <p><?= $Buku["nama"]; ?></p>
-            <p><?= $Buku["informasi produk"]; ?></p>
+            <p><?= $Buku["informasi_produk"]; ?></p>
             <p><?= $Buku["jenis"]; ?></p>
             <p><?= $Buku["harga"]; ?></p>
         </div>

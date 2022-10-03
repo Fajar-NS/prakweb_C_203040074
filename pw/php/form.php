@@ -71,10 +71,9 @@ $Buku = query("SELECT * FROM Buku");
             <tr>
                 <td><?= $i; ?></td>
                 <td>
-                    <a href="ubah.php?id=<?= $kertas['id'] ?>"><button
-                            style="border: none; padding: 5px 13px; background-color: teal; color: white; margin-bottom: 5px; border-radius: 2px;">Ubah</button></a>
-                    <a href="hapus.php?id=<?= $kertas['id']; ?>" onclick="return confirm('Hapus Data??')"><button
-                            style="border: none; padding: 5px 10px; background-color: red; color: white; border-radius: 2px;">Hapus</button></a>
+                    <a href="ubah.php?id=<?= $kertas['id'] ?>"><button style="border: none; padding: 5px 13px; background-color: teal; color: white; margin-bottom: 5px; border-radius: 2px;">Ubah</button></a>
+                    <a href="hapus.php?id=<?= $kertas['id']; ?>" onclick="return confirm('Hapus Data??')"><button style="border: none; padding: 5px 10px; background-color: red; color: white; border-radius: 2px;">Hapus</button></a>
+                    <a href="detail.php?id=<?= $kertas['id']; ?>"><button style="border: none; padding: 5px 10px; background-color: black; color: white; border-radius: 2px;">Detail</Details></button></a>
                 </td>
                 <td><img width="90px" src="../img/<?= $kertas['img']; ?>" alt=""></td>
                 <td><?= $kertas['nama']; ?></td>

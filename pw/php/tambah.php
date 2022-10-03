@@ -29,7 +29,7 @@ if (isset($_POST['tambah'])) {
 </head>
 
 <body style="font-family: Arial, sans-serif;">
-    <h3>Form Tambah Data</h3>
+    <h3>Tambah Data</h3>
     <form action="" method="post">
         <ul style="list-style: none;">
             <li>

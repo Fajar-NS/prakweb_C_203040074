@@ -31,7 +31,7 @@ if (isset($_POST['ubah'])) {
 </head>
 
 <body>
-    <h3>Form Ubah Data</h3>
+    <h3>Ubah Data</h3>
     <form action="" method="post">
     <input type="hidden" name="id" id="id" value="<?= $Buku['id']; ?>">
     <ul style="list-style: none;">
